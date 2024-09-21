@@ -7,3 +7,4 @@ export const createContactController = async (req: Request, res: Response) => {
   const createdContact = await createContactService(req.body, userID);
   return res.status(201).json(instanceToPlain(createdContact));
 };
+
