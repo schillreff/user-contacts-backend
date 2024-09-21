@@ -5,7 +5,7 @@ import { listUserController } from '../../controllers/user/listUser.controller';
 import { updateUserController } from '../../controllers/user/updateUser.controller';
 import { ensureAuthMiddleware } from '../../middlewares/ensureAuth.middleware';
 import { validateSerializerMiddleware } from '../../middlewares/validateSerializer.middleware';
-import { userSerializer } from '../../serializers/user.serializers';
+import { userSerializer } from '../../serializers/user/user.serializers';
 
 export const router = Router();
 
