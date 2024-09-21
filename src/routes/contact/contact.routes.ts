@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import { createContactController } from '../../controllers/contact/createContact.controller';
+
 import { listContactsController } from '../../controllers/contact/listContacts.controller';
 import { ensureAuthMiddleware } from '../../middlewares/ensureAuth.middleware';
 import { validateSerializerMiddleware } from '../../middlewares/validateSerializer.middleware';
